@@ -1,7 +1,18 @@
 # Color Synesthesia Groups
 Given an HTML document containing a table `<table>`, which contains both `<thead>` and `<tbody>` elements, this utility will allow the user to group rows from the table into *color groups* based on their defined queries.
 
+*Color Synesthesia Groups* is a *Java* [*Swing*](https://docs.oracle.com/javase/8/docs/technotes/guides/swing/index.html) application.  This git repository contains a [*NetBeans*](https://netbeans.apache.org/) project.
+
 # Installation
+Modern Java developers are supposed to [release platform specific executables](http://launch4j.sourceforge.net/docs.html) in order to prevent end-users from needing to install a JRE on their machine.  Perhaps this may be available for *Color Synesthesia Groups* in the future.
+
+*You must have a JRE installed*
+
+1. [Install Java 8](https://www.java.com/en/download/manual.jsp),
+2. [Download and extract the CSG distribution](https://ultasun.github.io/CSG.zip),
+	- This creates a folder called `CSG`,
+3. *Double click* on `ColorSynesthesiaGroups.jar` in the `CSG` folder,
+	- Try it out with the included `demo-time-table.html` document.
 
 # Help Window Text
 Welcome to Color Synesthesia Groups!  Please read these instructions in their entirety.
@@ -48,4 +59,5 @@ to modify the query.  The query may not be modified after the search without res
 Note: If the loaded table has no right-aligned punch-columns, then the option to "Include all non-matching punched-in elements" will include all rows
 from the original table, functionally ignoring the queries.
 
-Authored 2019 by ultasun.
+# Credits
+Authored 2019 by ultasun.  See the `LICENSE` file.  Thanks for reading!
